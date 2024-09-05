@@ -29,15 +29,15 @@ class Cachorro {
 }
 
 
-$cachorro1 = new Cachorro("Rex", "Pastor Alemão");
-$cachorro2 = new Cachorro("Max", "Labrador");
+$cachorro1 = new Cachorro("Julian", "Pastor Alemão");
+$cachorro2 = new Cachorro("Ferdinando", "Labrador");
 
 
 echo "Cachorro 1 - Nome: " . $cachorro1->getNome() . ", Raça: " . $cachorro1->getRaca() . "\n";
 echo "Cachorro 2 - Nome: " . $cachorro2->getNome() . ", Raça: " . $cachorro2->getRaca() . "\n";
 
 
-$cachorro1->setNome("Thor");
+$cachorro1->setNome("Ghost");
 $cachorro1->setRaca("Husky Siberiano");
 
 $cachorro2->setNome("Bella");
